@@ -1,0 +1,73 @@
+name: "SCXML LOB & TargetApp Resolver"
+description: "Validates LOB, extracts target apps, and returns filtered JSON config."
+
+inputs:
+  lob:
+    description: "Selected SCXML LOB"
+    required: true
+
+  target_app:
+    description: "Selected SCXML Target App"
+    required: true
+
+outputs:
+  valid_target_app:
+    description: "Validated Target App"
+    value: ${{ steps.validate.outputs.valid_target }}
+
+  target_app_list:
+    description: "Target App List for given LOB"
+    value: ${{ steps.extract.outputs.target_list }}
+
+  lob_app_list:
+    description: "LOB App List"
+    value: ${{ steps.extract.outputs.lob_list }}
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Checkout central repo
+      uses: actions/checkout@v4
+      with:
+        repository: nehaa13/central_repository
+        path: central_repository
+        token: ${{ env.ACTIONS_TOKEN || secrets.GH_TOKEN }}
+
+    - name: Load JSON
+      id: json
+      shell: bash
+      run: |
+        data=$(cat central_repository/CL1/Scxml.json)
+        echo "json=$data" >> $GITHUB_OUTPUT
+
+    - name: Extract LOB lists
+      id: extract
+      shell: bash
+      run: |
+        JSON='${{ steps.json.outputs.json }}'
+        LOB="${{ inputs.lob }}"
+
+        LOB_APPS=$(echo "$JSON" | jq -c --arg LOB "$LOB" '.SCXML_APP_LISTS[$LOB]')
+        TARGET_LIST=$(echo "$JSON" | jq -c --arg LOB "$LOB" '.SCXML_TARGET_APP_LISTS[$LOB]')
+
+        echo "lob_list=$LOB_APPS" >> $GITHUB_OUTPUT
+        echo "target_list=$TARGET_LIST" >> $GITHUB_OUTPUT
+
+    - name: Validate target app
+      id: validate
+      shell: bash
+      run: |
+        JSON='${{ steps.json.outputs.json }}'
+        LOB="${{ inputs.lob }}"
+        TARGET="${{ inputs.target_app }}"
+
+        VALID_APPS=$(echo "$JSON" | jq -r --arg LOB "$LOB" '.SCXML_TARGET_APP_LISTS[$LOB][]')
+
+        echo "$VALID_APPS" | grep -Fx "$TARGET" >/dev/null 2>&1
+        if [ $? -ne 0 ]; then
+          echo "::error::Invalid TargetApp $TARGET for selected LOB: $LOB"
+          exit 1
+        fi
+
+        echo "valid_target=$TARGET" >> $GITHUB_OUTPUT
