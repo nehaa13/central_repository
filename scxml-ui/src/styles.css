@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+}
+
+.container {
+  width: 450px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #d0d0d0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+.message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
