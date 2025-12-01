@@ -1,0 +1,80 @@
+name: "SCXML Release Info Resolver"
+description: "Resolves latest and new release names using JSON + GitHub API"
+
+inputs:
+  lob:
+    required: true
+  project_name:
+    required: true
+  release_type:
+    required: true
+  release_description:
+    required: true
+
+outputs:
+  latest_release_name:
+    value: ${{ steps.releases.outputs.latest }}
+  new_release_name:
+    value: ${{ steps.releases.outputs.new }}
+  target_app_list:
+    value: ${{ steps.extract.outputs.target_list }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout central repo
+      uses: actions/checkout@v4
+      with:
+        repository: nehaa13/central_repository
+        path: Central_repository
+        token: ${{ env.ACTIONS_TOKEN || secrets.GH_TOKEN }}
+
+    - name: Load JSON
+      id: json
+      shell: bash
+      run: |
+        JSON=$(cat Central_repository/CL1/Scxml.json)
+        echo "json=$JSON" >> $GITHUB_OUTPUT
+
+    # Identify LOB -> Target App List
+    - name: Extract LOB Target Apps
+      id: extract
+      shell: bash
+      run: |
+        JSON='${{ steps.json.outputs.json }}'
+        LOB="${{ inputs.lob }}"
+        TARGET_LIST=$(echo "$JSON" | jq -c --arg LOB "$LOB" '.SCXML_TARGET_APP_LISTS[$LOB]')
+        echo "target_list=$TARGET_LIST" >> $GITHUB_OUTPUT
+
+    # RELEASE NAME BLOCK
+    - name: Compute Release Names
+      id: releases
+      shell: bash
+      run: |
+        JSON='${{ steps.json.outputs.json }}'
+        PROJECT="${{ inputs.project_name }}"
+        TYPE="${{ inputs.release_type }}"
+
+        # Fetch Release API from JSON
+        RELEASE_API=$(echo "$JSON" | jq -r '.SCXML_GIT_CONFIG.GIT_getReleaseApiURL[0]')
+
+        echo "Fetching releases from: $RELEASE_API"
+
+        # Latest release from GitHub API (mock)
+        LATEST=$(curl -s $RELEASE_API | jq -r '.[-1].ref' || echo "none")
+
+        # If no latest release found → fallback
+        if [ "$LATEST" = "null" ] || [ -z "$LATEST" ]; then
+          LATEST="NoPreviousRelease"
+        fi
+
+        # New Release Name Generator Format:
+        # <project>-<type>-<YYYYMMDDHHMM>
+        TS=$(date +"%Y%m%d%H%M")
+        NEW="${PROJECT}_${TYPE}_${TS}"
+
+        echo "Latest Release: $LATEST"
+        echo "New Release: $NEW"
+
+        echo "latest=$LATEST" >> $GITHUB_OUTPUT
+        echo "new=$NEW" >> $GITHUB_OUTPUT
