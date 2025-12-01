@@ -1,0 +1,1076 @@
+
+{
+              "SCXML_APP_LISTS": {
+                             "CM_CodeDepot_SCXML_AppName": [
+                                           "CM_CodeDepot"
+                             ],
+                             "CM_ENT_SCXML_AppName": [
+                                           "CM_ENT"
+                             ],
+                             "CM_OPT_SCXML_AppName": [
+                                           "CM_OPT"
+                             ],
+                             "CM_UHC_SCXML_AppName": [
+                                           "CM_UHC"
+                             ]
+              },
+              "SCXML_TARGET_APP_LISTS": {
+                             "CM_CodeDepot_SCXML_AppName": [
+                                           "CMRegressionTestApp"
+                             ],
+                             "CM_ENT_SCXML_AppName": [
+                                           "CM_CommonJavaFusion",
+                                           "CM_CommonWorkflows",
+                                           "CM_CommonDBWorkflows",
+                                           "CM_ENT_Campaign_Capability",
+                                           "CM_ENT_ITSS",
+                                           "CM_Gate",
+                                           "ENT_Identify_Contact",
+                                           "OMNI_Conversation_Manager"
+                             ],
+                             "CM_OPT_SCXML_AppName": [
+                                           "CM_OPT_Common",
+                                           "CM_OPT_FS",
+                                           "CM_OPT_OHCA",
+                                           "CM_OPT_RxCustSrvc",
+                                           "CM_OPT_RxSpecialty"
+                             ],
+                             "CM_UHC_SCXML_AppName": [
+                                           "CM_UHC_AARP",
+                                           "CM_UHC_CS",
+                                           "CM_UHC_EI",
+                                           "CM_UHC_MR",
+                                           "CM_UHC_PacificCare",
+                                           "CM_UHC_PolarisMember",
+                                           "CM_UHC_PolarisProvider",
+                                           "CM_UHC_Provider",
+                                           "CM_UHC_UMR"
+                             ]
+              },
+              "SCXML_GIT_CONFIG": {
+                             "GIT_userEmail": [
+                                           saravanan_shanmugam@optum.com
+                             ],
+                             "GIT_userName": [
+                                           "sshanm21_uhg"
+                             ],
+                             "GIT_omniDeployCredentials": [
+                                           "sshanm21_uhg"
+                             ],
+                             "GIT_Repo": [
+                                           "github.com/optum-omnichannel/Enterprise_CM.git"
+                             ],
+                             "GIT_Sandbox_Repo_Name": [
+                                           "optum-omnichannel",
+                                           "optum-omnichannel",
+                                           "optum-omnichannel"
+                             ],
+                             "GIT_Sandbox_Repo": [
+                                           "github.com/optum-omnichannel/Enterprise_CM_SandBox.git",
+                                           "github.com/optum-omnichannel/Enterprise_CM_SandBox.git",
+                                           "github.com/optum-omnichannel/Enterprise_CM_SandBox.git"
+                             ],
+                             "GIT_ReleaseNotes_Repo": [
+                                           "github.com/optum-omnichannel/RELEASE_NOTES.git"
+                             ],
+                             "GIT_Other_Repo_Name": [
+                                           "RELEASE_NOTES",
+                                           "Enterprise_CM"
+                             ],
+                             "GIT_scxmlProjectMainFolderName": [
+                                           "Enterprise_CM"
+                             ],
+                             "GIT_getReleaseApiURL": [
+                                           https://api.github.com/repos/optum-omnichannel/Enterprise_CM/git/refs/tags
+                             ],
+                             "GIT_getBranchApiURL": [
+                                           https://api.github.com/repos/optum-omnichannel/Enterprise_CM/branches?per_page=10000
+                             ],
+                             "SCXML_gitReleaseApiPrefix": [
+                                           https://api.github.com/repos/optum-omnichannel/Enterprise_CM
+                             ],
+                             "SCXML_gitReleaseApiSuffix": [
+                                           "/git/refs/tags/"
+                             ],
+                             "SCXML_gitReleaseMessageApiSuffix": [
+                                           "/git/tags/"
+                             ],
+                             "Master_BranchName": [
+                                           "main"
+                             ],
+                             "Hotfix_BranchSuffix": [
+                                           "_HotFix"
+                             ]
+              },
+              "SCXML_JFROG_CONFIG": {
+                             "Recipe_fileName": [
+                                           ".json"
+                             ],
+                             "SCXML_artifactoryUserID": [
+                                           "omni_art_deploy"
+                             ],
+                             "SCXML_searchArtifactoryBaseURL": [
+                                           https://repo1.uhc.com/artifactory/api/search/pattern?pattern=
+                             ],
+                             "SCXML_downloadCookbookArtifactoryBaseURL": [
+                                           https://repo1.uhc.com/artifactory/api/download/UHG-Snapshots/com/uhg/omni/RoutingEngineering_CM/CookBook/
+                             ],
+                            "SCXML_downloadSCXMLCookbookArtifactoryBaseURL": [
+                                           https://repo1.uhc.com/artifactory/api/download/UHG-Snapshots/com/uhg/omni/RoutingEngineering_CM/CookBook/ORSScript/,
+                                           https://repo1.uhc.com/artifactory/api/download/UHG-Snapshots/com/uhg/omni/RoutingEngineering_CM/CookBook/TemplatePackage/
+                             ],
+              "SCXML_downloadSCXMLCookbookArtifactoryBaseURL_ReleaseDetails": [
+                                           https://repo1.uhc.com/artifactory/api/download/UHG-Snapshots/com/uhg/omni/RoutingEngineering_CM/CookBook/ORSScript/,
+                                           https://repo1.uhc.com/artifactory/api/download/UHG-Snapshots/com/uhg/omni/RoutingEngineering_CM/CookBook/TemplatePackage/
+                             ],
+                             "SCXML_searchArtifactorySnapshotBasePath": [
+                                           "UHG-Snapshots:"
+                             ],
+                             "SCXML_artifactorySnapshotBasePath": [
+                                           "UHG-Snapshots/"
+                             ],
+                             "SCXML_artifactoryReleaseBasePath": [
+                                           "UHG-Releases/"
+                             ],
+                             "SCXML_artifactoryVirtualPath": [
+                                           "com/uhg/omni/RoutingEngineering_CM/ORSScript/"
+                             ],
+                             "CookBook_artifactoryVirtualPath": [
+                               "com/uhg/omni/RoutingEngineering_CM/CookBook/ORSScript/",
+                             "com/uhg/omni/RoutingEngineering_CM/CookBook/TemplatePackage/"
+                             ],
+                             "CookBook_artifactoryVirtualPath_ReleaseDetails": [
+                               "com/uhg/omni/RoutingEngineering_CM/CookBook/ORSScript/",
+                             "com/uhg/omni/RoutingEngineering_CM/CookBook/TemplatePackage/"
+                             ],
+                             "artifactorySoftwareBasePath": [
+                                           "generic-local/"
+                             ],
+                             "virtualPath_ForScxmlLibSoftware": [
+                                           "com/optum/code-depot/gcx/scxml/"
+                             ],
+                             "softwareFileName": [
+            "scxml_lib.zip",
+                                           "composer_scxml_lib_8_1_600_07.zip"
+        ],
+                             "CookBook_artifactoryChildVirtualPath": [
+                                           "DEV2",
+                                           "RELEASE",
+                                           "COMPOUND_RELEASE",
+                                           "QA",
+                                           "COMPOUND_QA",
+                                           "STAGE",
+                                           "COMPOUND_STAGE",
+                                           "PROD",
+                                           "COMPOUND_PROD",
+                                           "ACTIVE_PACKAGE",
+                                           "TOGGLE_MODE_DEV2",
+                                           "TOGGLE_MODE_QA",
+                                           "TOGGLE_MODE_STAGE",
+                                           "TOGGLE_MODE_PROD",
+                                           "COMPOUND_RESTORE_RELEASE_DEV2",
+                                           "CREATE_SCRIPT_OBJECT_DEV2",
+                                           "CREATE_SCRIPT_OBJECT_QA",
+                                           "CREATE_SCRIPT_OBJECT_STAGE",
+                                           "CREATE_SCRIPT_OBJECT_PROD",
+                                           "DELETE"
+                             ],
+                             "CookBook_artifactoryUploadFlag": [
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE",
+                                           "TRUE"
+                             ],
+                             "CookBook_colourMode": [
+                                           "DEFAULT",
+                                           "BLUE",
+                                           "GREEN",
+                                           "HOTFIX"
+                             ],
+                             "packageSuffix": [
+                                           "HotFix",
+                                           "blue",
+                                           "green"
+                             ]
+              },
+              "SCXML_EMAIL_CONFIG": {
+                             "CM_CodeDepot_SCXML_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com;OMNI_DevOps_RE_RegressionTestApp_DL@ds.uhc.com
+                             ],
+                             "CM_ENT_SCXML_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com
+                             ],
+                             "CM_OPT_SCXML_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com
+                             ],
+                             "CM_UHC_SCXML_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com
+                             ],
+                             "SCXML_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com
+                             ],
+                             "ReleaseNotes_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com;OMNI_DevOps_RE_CMOptum_All@ds.uhc.com;OMNI_DevOps_RE_CMUHC_All@ds.uhc.com
+                             ],
+                             "SCXML_adminEmailID": [
+                                           OMNI_DevOps_RE_Admin_DL@ds.uhc.com
+                             ],
+                             "SCXML_superAdminEmailID": [
+                                           saravanan_shanmugam@optum.com
+                             ],
+                             "Sandbox_SCXML_teamEmailDL": [
+                             OMNI_DEV_CM_LEADS@ds.uhc.com;OMNI_DevOps_RE_CM_All@ds.uhc.com;OMNI_DevOps_RE_CMOptum_All@ds.uhc.com;OMNI_DevOps_RE_CMUHC_All@ds.uhc.com
+                             ]
+              },
+              "SANDBOX_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CM ENTERPRISE SCXML CODE SANDBOX AUTOMATION "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR REPOSITORY "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CM ENTERPRISE SCXML CODE SANDBOX AUTOMATION "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR REPOSITORY "
+                             ]
+              },
+              "RELEASE_NOTES_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CM ENTERPRISE SCXML CODE RELEASE NOTES SUMMARY "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR LAST 6 MONTHS PERIOD "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CM ENTERPRISE SCXML CODE RELEASE NOTES SUMMARY "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR LAST 6 MONTHS PERIOD "
+                             ]
+              },
+              "DEV2_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "DEV2_RESTORE_RELEASE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:RESTORE RELEASE "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:RESTORE RELEASE "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "DEV2_TOGGLE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+             "DEV2_RESTORE_COMPOUND_RELEASE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:RESTORE COMPOUND RELEASE "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:RESTORE COMPOUND RELEASE "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "DEV2_RESTORE_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:RESTORE SCXML IN GIT HUB "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           "FOR RELEASE "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:RESTORE SCXML IN GIT HUB "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           "FOR RELEASE "
+                             ]
+              },
+              "DEV2_ORS_CACHE_REFRESH_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "DEV2_VERIFY_DEPLOYMENT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:SCXML VERIFY DEPLOYMENT SUMMARY "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:SCXML VERIFY DEPLOYMENT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+             "DEV2_CREATE_SCXML_SCRIPT_OBJECT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr DEV2 ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "RELEASE_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr SCXML RELEASE "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           "FOR PACKAGE NAME "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr SCXML RELEASE "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "COMPOUND_RELEASE_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr COMPOUND RELEASE "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr COMPOUND RELEASE "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "COMPOUND_QA_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:COMPOUND RELEASE AUTO DEPLOYMENT  "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:COMPOUND RELEASE AUTO DEPLOYMENT  "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "QA_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "QA_TOGGLE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "QA_ORS_CACHE_REFRESH_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "QA_VERIFY_DEPLOYMENT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:SCXML VERIFY DEPLOYMENT SUMMARY "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:SCXML VERIFY DEPLOYMENT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "QA_CREATE_SCXML_SCRIPT_OBJECT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr QA ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "COMPOUND_STAGE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:COMPOUND RELEASE AUTO DEPLOYMENT  "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:COMPOUND RELEASE AUTO DEPLOYMENT  "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "STAGE_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "STAGE_TOGGLE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "STAGE_ORS_CACHE_REFRESH_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "STAGE_VERIFY_DEPLOYMENT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:SCXML VERIFY DEPLOYMENT SUMMARY "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:SCXML VERIFY DEPLOYMENT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+           "STAGE_CREATE_SCXML_SCRIPT_OBJECT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr STAGE ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "COMPOUND_PROD_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr PRODUCTION ENVIRONMET:COMPOUND RELEASE AUTO DEPLOYMENT  "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr PRODUCTION ENVIRONMET:COMPOUND RELEASE AUTO DEPLOYMENT  "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "PROD_SCXML_EMAIL_CONFIG": {
+                             "SCXML_emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr PRODUCTION ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "SCXML_emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr PRODUCTION ENVIRONMET:SCXML AUTO DEPLOYMENT "
+                             ],
+                             "SCXML_emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "PROD_TOGGLE_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:TOGGLE MODE"
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "PROD_ORS_CACHE_REFRESH_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:SCXML CACHE REFRESH "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+              "PROD_VERIFY_DEPLOYMENT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:SCXML VERIFY DEPLOYMENT SUMMARY "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR PACKAGE NAME "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:SCXML VERIFY DEPLOYMENT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR PACKAGE NAME "
+                             ]
+              },
+            "PROD_CREATE_SCXML_SCRIPT_OBJECT_EMAIL_CONFIG": {
+                             "emailBodyPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailBodySuffix": [
+                                           " FOR LOB "
+                             ],
+                             "emailSubjectPrefix": [
+                                           "CL1:-Conv.Mgr PROD ENVIRONMET:CREATE SCXML ENHANCED ROUTING SCRIPT OBJECT "
+                             ],
+                             "emailSubjectSuffix": [
+                                           " FOR LOB "
+                             ]
+              },
+              "DEV2": {
+                             "SCXML_APP_Servers": [
+                                           "cl1-dev-rhel-ctc-webapp1.uhc.com",
+                                           "cl1-dev-rhel-ctc-webapp2.uhc.com"
+                             ],
+                             "DB_SCXML_APP_Servers": [
+                                           "cl1-dev-rhel9-ctc-convmanager-scxml-001.uhc.com",
+                                           "cl1-dev-rhel9-elr-convmanager-scxml-001.uhc.com"
+                             ],
+                             "SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "DB_SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "SCXML_backupDir": [
+                                           "/apps/gcti/backup/routing/scxml"
+                             ],
+                             "SCXML_UserID": [
+                                           "opredev"
+                             ],
+                             "SCXML_CredID": [
+                                           "omni_rtg_deploy_dev"
+                             ]
+              },
+              "QA": {
+                             "SCXML_APP_Servers": [
+                                           "cl1-qa-rhel-ctc-webapp1.uhc.com",
+                                           "cl1-qa-rhel-ctc-webapp2.uhc.com"
+                             ],
+                             "DB_SCXML_APP_Servers": [
+                                           "cl1-qa-rhel9-ctc-convmanager-scxml-001.uhc.com",
+                                           "cl1-qa-rhel9-elr-convmanager-scxml-001.uhc.com"
+                             ],
+                             "SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "DB_SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "SCXML_backupDir": [
+                                           "/apps/gcti/backup/routing/scxml"
+                             ],
+                             "SCXML_UserID": [
+                                           "opredev"
+                             ],
+                             "SCXML_CredID": [
+                                           "omni_rtg_deploy_dev"
+                             ]
+              },
+              "STAGE": {
+                             "SCXML_APP_Servers": [
+                                           "cl1-stg-rhel-elr-webapp1.uhc.com",
+                                           "cl1-stg-rhel-elr-webapp2.uhc.com",
+                                           "cl1-stg-rhel-elr-webapp3.uhc.com",
+                                           "cl1-stg-rhel-elr-webapp4.uhc.com",
+                                           "cl1-stg-rhel-ctc-webapp1.uhc.com",
+                                           "cl1-stg-rhel-ctc-webapp2.uhc.com",
+                                           "cl1-stg-rhel-ctc-webapp3.uhc.com",
+                                           "cl1-stg-rhel-ctc-webapp4.uhc.com"
+                             ],
+                             "DB_SCXML_APP_Servers": [
+                                           "cl1-stg-rhel9-ctc-convmanager-scxml-001.uhc.com",
+                                           "cl1-stg-rhel9-ctc-convmanager-scxml-002.uhc.com",
+                                           "cl1-stg-rhel9-elr-convmanager-scxml-001.uhc.com",
+                                           "cl1-stg-rhel9-elr-convmanager-scxml-002.uhc.com"
+                             ],
+                             "SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "DB_SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "SCXML_backupDir": [
+                                           "/apps/gcti/backup/routing/scxml"
+                             ],
+                             "SCXML_UserID": [
+                                           "oprestg"
+                             ],
+                             "SCXML_CredID": [
+                                           "omni_rtg_deploy_stg"
+                             ]
+              },
+              "PROD": {
+                             "SCXML_APP_Servers": [
+                                           "cl1-rhel-elr-webapp1.uhc.com",
+                                           "cl1-rhel-elr-webapp2.uhc.com",
+                                           "cl1-rhel-elr-webapp3.uhc.com",
+                                           "cl1-rhel-elr-webapp4.uhc.com",
+                                           "cl1-rhel-ctc-webapp1.uhc.com",
+                                           "cl1-rhel-ctc-webapp2.uhc.com",
+                                           "cl1-rhel-ctc-webapp3.uhc.com",
+                                           "cl1-rhel-ctc-webapp4.uhc.com"
+                             ],
+                             "DB_SCXML_APP_Servers": [
+                                           "cl1-rhel9-ctc-convmanager-scxml-001.uhc.com",
+                                           "cl1-rhel9-ctc-convmanager-scxml-002.uhc.com",
+                                           "cl1-rhel9-elr-convmanager-scxml-001.uhc.com",
+                                           "cl1-rhel9-elr-convmanager-scxml-002.uhc.com"
+                             ],
+                             "SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "DB_SCXML_tomcatPath": [
+                                           "/apps/gcti/thirdparty/tomcat/8080/webapps"
+                             ],
+                             "SCXML_backupDir": [
+                                           "/apps/gcti/backup/routing/scxml"
+                             ],
+                             "SCXML_UserID": [
+                                           "opreprd"
+                             ],
+                             "SCXML_CredID": [
+                                           "omni_rtg_deploy_prod"
+                             ]
+              },
+              "ORS_CACHE_REFRESH": {
+                             "DEV2_ORS_Servers": [
+                                           "dev2-rhel-elr-cm-ors1.uhc.com",
+                                           "dev2-rhel-ctc-cm-ors2.uhc.com"
+                             ],
+                             "QA_ORS_Servers": [
+                                           "qa-rhel-elr-cm-ors1.uhc.com",
+                                           "qa-rhel-ctc-cm-ors2.uhc.com"
+                             ],
+                             "STAGE_ORS_Servers": [
+                                           "stg-rhel-elr-cm-ors1.uhc.com",
+                                           "stg-rhel-elr-cm-ors2.uhc.com",
+                                           "stg-rhel-elr-cm-ors3.uhc.com",
+                                           "stg-rhel-elr-cm-ors4.uhc.com",
+                                           "stg-rhel-elr-cm-ors5.uhc.com",
+                                           "stg-rhel-elr-cm-ors6.uhc.com",
+                                           "stg-rhel-ctc-cm-ors1.uhc.com",
+                                           "stg-rhel-ctc-cm-ors2.uhc.com",
+                                           "stg-rhel-ctc-cm-ors3.uhc.com",
+                                           "stg-rhel-ctc-cm-ors4.uhc.com",
+                                           "stg-rhel-ctc-cm-ors5.uhc.com",
+                                           "stg-rhel-ctc-cm-ors6.uhc.com"
+                             ],
+                             "PROD_ORS_Servers": [
+                                           "rhel-elr-cm-ors1.uhc.com",
+                                           "rhel-elr-cm-ors2.uhc.com",
+                                           "rhel-elr-cm-ors3.uhc.com",
+                                           "rhel-elr-cm-ors4.uhc.com",
+                                           "rhel-elr-cm-ors5.uhc.com",
+                                           "rhel-elr-cm-ors6.uhc.com",
+                                           "rhel-ctc-cm-ors1.uhc.com",
+                                           "rhel-ctc-cm-ors2.uhc.com",
+                                           "rhel-ctc-cm-ors3.uhc.com",
+                                           "rhel-ctc-cm-ors4.uhc.com",
+                                           "rhel-ctc-cm-ors5.uhc.com",
+                                           "rhel-ctc-cm-ors6.uhc.com"
+                             ],
+                             "ORS_Start_SCXML_Session_LeadingPrefix": [
+                                           http://
+                             ],
+                             "ORS_Start_SCXML_Session_Suffix": [
+                                           ":3072/scxml/session/start"
+                             ],
+                            "DEV2_ORS_Start_SCXML_Session_InputParamPrefix": [
+                                           https://dev2-scxml.uhc.com/
+                             ],
+                            "QA_ORS_Start_SCXML_Session_InputParamPrefix": [
+                                           https://qa-scxml.uhc.com/
+                             ],
+                            "STAGE_ORS_Start_SCXML_Session_InputParamPrefix": [
+                                           https://stg-scxml.uhc.com/
+                             ],
+                            "PROD_ORS_Start_SCXML_Session_InputParamPrefix": [
+                                           https://scxml.uhc.com/
+                             ],
+                             "ORS_Start_SCXML_Session_InputParamSuffix": [
+                                           "/src-gen/IPD_Chat_StopInteraction.scxml"
+                             ],
+                             "ORS_Publish_SCXML_Event_LeadingPrefix": [
+                                           http://
+                             ],
+                             "ORS_Publish_SCXML_Event_MidPrefix": [
+                                           ":3072/scxml/session/"
+                             ],
+                             "ORS_Publish_SCXML_Event_Suffix": [
+                                           "/event/interaction.added"
+                             ],
+                             "ORS_Stop_SCXML_Session_LeadingPrefix": [
+                                           http://
+                             ],
+                             "ORS_Stop_SCXML_Session_MidPrefix": [
+                                           ":3072/scxml/session/"
+                             ],
+                             "ORS_Stop_SCXML_Session_Suffix": [
+                                           "/terminate"
+                             ],
+                             "DEV2_ORS_http_max_age": [
+                                           1
+                             ],
+                             "DEV2_ORS_http_max_stale": [
+                                           120
+                             ],
+                             "DEV2_ORS_max_assembled_cache_age": [
+                                           360
+                             ],
+                             "DEV2_ORS_assembled_cache_reload_threshold": [
+                                           300
+                             ],
+                             "QA_ORS_http_max_age": [
+                                           360
+                             ],
+                             "QA_ORS_http_max_stale": [
+                                           120
+                             ],
+                             "QA_ORS_max_assembled_cache_age": [
+                                           360
+                             ],
+                             "QA_ORS_assembled_cache_reload_threshold": [
+                                           300
+                             ],
+                             "STAGE_ORS_http_max_age": [
+                                           1
+                             ],
+                             "STAGE_ORS_http_max_stale": [
+                                           0
+                             ],
+                             "STAGE_ORS_max_assembled_cache_age": [
+                                           60
+                             ],
+                            "STAGE_ORS_assembled_cache_reload_threshold": [
+                                           45
+                             ],
+                             "PROD_ORS_http_max_age": [
+                                           1
+                             ],
+                             "PROD_ORS_http_max_stale": [
+                                           120
+                             ],
+                             "PROD_ORS_max_assembled_cache_age": [
+                                           60
+                             ],
+                             "PROD_ORS_assembled_cache_reload_threshold": [
+                                           45
+                             ]
+              },
+              "SCXML_VERIFY_DEPLOYMENT": {
+                             "verifyDeployment_leadURL": [
+                                           http://
+                             ],
+                             "verifyDeployment_PortNo": [
+                                           "8080"
+                             ],
+                             "verifyDeployment_FileName": [
+                                           "gitCommitReadme.txt"
+                             ]
+              },
+              "DB_SCXML_VERIFY_DEPLOYMENT": {
+                             "verifyDeployment_leadURL": [
+                                           http://
+                             ],
+                             "verifyDeployment_PortNo": [
+                                           "8080"
+                             ],
+                             "verifyDeployment_FileName": [
+                                           "gitCommitReadme.txt"
+                             ]
+              },
+              "ALL_PACKAGE_LIST": {
+                             "SCXML_PackageName": [
+                                           "CM_CodeDepot",
+                                           "CM_ENT",
+                                           "CM_OPT",
+                                           "CM_UHC"
+                             ],
+                             "All_TargetLOB": [
+                                           "CMRegressionTestApp",
+                                           "CM_CommonJavaFusion",
+                                           "CM_CommonWorkflows",
+                                           "CM_CommonDBWorkflows",
+                                           "CM_ENT_Campaign_Capability",
+                                           "CM_ENT_ITSS",
+                                           "CM_Gate",
+                                           "CM_OPT_Common",
+                                           "CM_OPT_FS",
+                                           "CM_OPT_OHCA",
+                                           "CM_OPT_RxCustSrvc",
+                                           "CM_OPT_RxSpecialty",
+                                           "CM_UHC_AARP",
+                                           "CM_UHC_CS",
+                                           "CM_UHC_EI",
+                                           "CM_UHC_MR",
+                                           "CM_UHC_PacificCare",
+                                           "CM_UHC_PolarisMember",
+                                           "CM_UHC_PolarisProvider",
+                                           "CM_UHC_Provider",
+                                           "CM_UHC_UMR",
+                                           "ENT_Identify_Contact",
+                                           "OMNI_Conversation_Manager"
+                             ],
+                             "packagePermissionMode": [
+                                           "777"
+                             ],
+                             "packageExtractSleepTime": [
+                                           "30",
+                                           "SECONDS"
+                             ],
+                             "packageDeleteSleepTime": [
+                                           "30",
+                                           "SECONDS"
+                             ],
+                             "DEV2_PlatformAccount": [
+                                           "sreadmdv",
+                                           "omni_scxml_deploy"
+                             ],
+                             "DEV2_ServiceAccount": [
+                                           "opredev",
+                                           "omni_rtg_deploy_dev"
+                             ],
+                             "DEV2_ActiveUserID": [
+                                           "1"
+                             ],
+                             "QA_PlatformAccount": [
+                                           "sreadmdv",
+                                           "omni_scxml_deploy"
+                             ],
+                             "QA_ServiceAccount": [
+                                           "opredev",
+                                           "omni_rtg_deploy_dev"
+                             ],
+                             "QA_ActiveUserID": [
+                                           "1"
+                             ],
+                             "STAGE_PlatformAccount": [
+                                           "sreadstg",
+                                           "omni_scxml_deploy_stage"
+                             ],
+                             "STAGE_ServiceAccount": [
+                                           "oprestg",
+                                           "omni_rtg_deploy_stg"
+                             ],
+                             "STAGE_ActiveUserID": [
+                                           "1"
+                             ],
+                             "PROD_PlatformAccount": [
+                                           "sreadmin",
+                                           "omni_scxml_deploy_prod"
+                             ],
+                             "PROD_ServiceAccount": [
+                                           "opreprd",
+                                           "omni_rtg_deploy_prod"
+                             ],
+                             "PROD_ActiveUserID": [
+                                           "1"
+                             ],
+                             "build_FileName": [
+                                           "buildSCXMLWar.xml",
+                                           "buildSCXMLWar_XLib.xml",
+                                           "buildFileName_For_CM_DB.xml"
+                             ],
+                             "webxml_FileName": [
+                                           "web.xml",
+                                           "web_XLib.xml",
+                                           "WEB-INF/web.xml"
+                             ],
+                             "antToolPath": [
+                                           "/tools/ant/apache-ant-1.9.4"
+                             ],
+                             "antVersion": [
+                                           "Ant1.9.4"
+                             ],
+                             "antBinPath": [
+                                           "/bin/ant"
+                             ]
+              },
+              "bg_Routing_Service": {
+                             "GRS_gratUserID": [
+                                           "GRAT_Jenkins"
+                             ],
+                             "queryMode_DEV2_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/queryMode
+                             ],
+                             "queryMode_QA_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/queryMode
+                             ],
+                             "queryMode_STAGE_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/queryMode
+                             ],
+                             "queryMode_PROD_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/queryMode
+                             ],
+                             "modifyMode_DEV2_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/modifyMode
+                             ],
+                             "modifyMode_QA_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/modifyMode
+                             ],
+                             "modifyMode_STAGE_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/modifyMode
+                             ],
+                             "modifyMode_PROD_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/modifyMode
+                             ],
+                             "createScriptObjs_DEV2_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/createScriptObjs
+                             ],
+                             "createScriptObjs_QA_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/createScriptObjs
+                             ],
+                             "createScriptObjs_STAGE_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/createScriptObjs
+                             ],
+                             "createScriptObjs_PROD_URL": [
+                                           https://dev2-scxml.uhc.com/bgRoutingServices/rest/createScriptObjs
+                             ],
+                             "createScriptObjs_Path": [
+                                           "Provisioning/Orchestration/Scripts/EnterpriseRt/"
+                             ]
+              }
+}
+
